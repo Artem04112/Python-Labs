@@ -25,6 +25,6 @@ def main():
     while SpaceX.amount_of_fuel > 0:
         SpaceX.spend_fuel(1000)
         print(SpaceX.get_fuel_level(), end='; ')
-        print(SpaceX.get_total_weight(), end=' ')
+        print(SpaceX.get_total_weight(), end='; ')
         print(SpaceX.get_is_engine_running())
 main()
